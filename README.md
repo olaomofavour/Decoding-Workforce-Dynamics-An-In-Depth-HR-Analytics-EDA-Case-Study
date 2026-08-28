@@ -7,8 +7,8 @@
 ## 📌 Project Overview
 
 <p align="center">
-  <a href="INSERT_BANNER_OR_DASHBOARD_IMAGE_URL_HERE">
-    <img src="INSERT_BANNER_OR_DASHBOARD_IMAGE_URL_HERE" alt="HR Analytics Project Overview" width="100%">
+  <a href="Image\Gemini_Generated_Image_sq9583sq9583sq95.jpg">
+    <img src="Image\Gemini_Generated_Image_sq9583sq9583sq95.jpg" alt="HR Analytics Project " width="100%">
   </a>
 </p>
 
@@ -37,6 +37,12 @@ The absence of unified, diagnostic workforce analytics prevents HR leadership an
 * **Profile Demographic & Sentiment Equity:** Audit base salary structures and employee satisfaction across racial backgrounds, gender classifications, and marital statuses[cite: 4].
 * **Diagnose Attrition Root Causes:** Isolate voluntary and involuntary exit rationales among terminated personnel to identify high-risk flight factors[cite: 4].
 
+<p align="center">
+  <a href="Image\Data_info.png">
+    <img src="Image\Data_info.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
+
 ---
 
 ## 🗂️ Data Overview
@@ -60,6 +66,12 @@ The primary analytical dataset is derived from `HR Analytics.xlsx` containing 31
 * **`DaysLateLast30`:** Frequency of tardiness occurrences within the trailing 30 days (*Numeric / Integer*)[cite: 4].
 * **`Absences`:** Cumulative count of unexcused absences (*Numeric / Integer*)[cite: 4].
 
+<p align="center">
+  <a href="Image\Data_info.png">
+    <img src="Image\Data_info.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
+
 ---
 
 ## 📊 Analytical Methodology & Feature Engineering
@@ -70,11 +82,29 @@ The primary analytical dataset is derived from `HR Analytics.xlsx` containing 31
   $$\text{expyear} = \frac{\text{Effective End Date} - \text{DateofHire}}{365.25}$$
 * **Cohort Segmentation:** Categorized workforce tenure into strategic bands: `0-2 Years`, `3-5 Years`, `6-10 Years`, and `10+ Years`[cite: 4].
 
+<p align="center">
+  <a href="Image\Data_cleaning.png"
+    <img src="Image\Data_cleaning.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="Image\Data_cleaning_2.png"
+    <img src="Image\Data_cleaning_2.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
+
 ### 2. Analytical Framework
 * **Correlation Matrix Evaluation:** Mapped Pearson linear relationships between numerical operational metrics (Salary, Engagement, Satisfaction, Special Projects, Tardiness, Absences, and Tenure)[cite: 4].
 * **Cross-Demographic Aggregation:** Grouped base salary, engagement, and satisfaction indices across demographic groups to evaluate structural parity[cite: 4].
 * **Multi-Variable Sentiment Profiling:** Segmented satisfaction across role designations, gender classifications, and marital categories[cite: 4].
 * **Terminated Cohort Isolation:** Filtered the subset of departed staff ($N = 104$) to analyze frequency distributions of documented departure reasons[cite: 4].
+
+<p align="center">
+  <a href="Image\Data_correlation.png">
+    <img src="Image\Data_correlation.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
 
 ---
 
@@ -84,15 +114,33 @@ The primary analytical dataset is derived from `HR Analytics.xlsx` containing 31
 * **Tardiness Serves as an Attrition Warning ($r = -0.59$):** A strong negative correlation exists between trailing 30-day tardiness (`DaysLateLast30`) and employee engagement scores[cite: 4]. Escalating attendance irregularities indicate declining employee engagement prior to formal resignation[cite: 4].
 * **Special Projects Drive Compensation Growth ($r = +0.51$):** Cross-functional strategic initiatives correlate positively with base compensation, highlighting that project opportunities are concentrated among senior technical and managerial positions[cite: 4].
 
+<p align="center">
+  <a href="Image\Table_1.png">
+    <img src="Image\Table_1.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
+
 ### 2. Demographic Equity & Satisfaction Patterns
 * **Compensation vs. Satisfaction Divergence:** The **Hispanic** demographic records the highest average base compensation ($83,667) and highest engagement survey rating (4.37), yet registers the lowest satisfaction score (3.00)[cite: 4]. This indicates that compensation alone does not ensure day-to-day job satisfaction[cite: 4].
 * **High Satisfaction Cohorts:** The **American Indian or Alaska Native** group records the highest overall satisfaction score (4.67) and strong engagement (4.20) at a base salary of $65,806[cite: 4].
 * **Core Segment Distributions:** **Black or African American** personnel average $74,431 in salary with balanced satisfaction (3.94) and engagement (4.07), while **White** personnel average $67,288 in base pay with 3.89 satisfaction and 4.16 engagement[cite: 4].
 
+<p align="center">
+  <a href="Image\Chart_4.png">
+    <img src="Image\Chart_4.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
+
 ### 3. Root Causes of Workforce Attrition
 * **Competitive Poaching Dominates Departures:** **"Another position"** accounts for 20 exits, making it the primary driver of turnover[cite: 4]. Combined with **"Unhappy"** (14 exits), **"More money"** (11 exits), and **"Career change"** (9 exits), voluntary market-driven exits outnumber involuntary terminations[cite: 4].
 * **Operational Enforcements:** Involuntary separations primarily stem from attendance violations (7 exits), performance deficiencies (4 exits), and unexcused no-call/no-shows (4 exits)[cite: 4].
 * **Demographic Exit Proportions:** Total terminations follow broader organizational representation, led by White employees (>60 exits), followed by Black or African American employees (~29 exits) and Asian employees (~9 exits)[cite: 4].
+
+<p align="center">
+  <a href="Image\data_Chart.png">
+    <img src="Image\data_Chart.png" alt="HR Analytics Project " width="100%">
+  </a>
+</p>
 
 ---
 
@@ -107,5 +155,4 @@ The primary analytical dataset is derived from `HR Analytics.xlsx` containing 31
 
 ## 🔗 Project Links
 
-* 📂 **GitHub Repository:** [HR Workforce Analytics Repository](INSERT_GITHUB_REPO_LINK_HERE)
 * 📝 **Medium Case Study:** [Read Full Analysis on Medium](INSERT_MEDIUM_ARTICLE_LINK_HERE)
