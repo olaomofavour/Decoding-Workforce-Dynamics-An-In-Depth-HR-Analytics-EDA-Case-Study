@@ -155,4 +155,4 @@ The primary analytical dataset is derived from `HR Analytics.xlsx` containing 31
 
 ## 🔗 Project Links
 
-* 📝 **Medium Case Study:** [Read Full Analysis on Medium](https://medium.com/@olaomofavour/decoding-workforce-dynamics-an-in-depth-hr-analytics-eda-case-study-3ed125a3d65aE)
+* 📝 **Medium Case Study:** [Read Full Analysis on Medium](https://medium.com/@olaomofavour/decoding-workforce-dynamics-an-in-depth-hr-analytics-eda-case-study-3ed125a3d65a)
